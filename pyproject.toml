@@ -1,0 +1,11 @@
+[project]
+name = "rknazo"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Ricky8955555", email = "rkmiao@duck.com"},
+]
+dependencies = []
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "Apache-2.0"}
