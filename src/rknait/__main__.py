@@ -92,7 +92,9 @@ class Interactive:
             return
 
         result = b"".join(results)
-        self.stdscr.addstr(f"|- Hooray! Here is something you want: {result}\n")
+        result = str(result)[2:-1]
+
+        self.stdscr.addstr(f"|- Hooray! Here is something you want:\n{result}\n")
 
     def add_flag(self) -> None:
         """
